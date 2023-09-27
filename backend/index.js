@@ -6,7 +6,7 @@ const authenticateUser = require('./app/middlewares/authenticate')
 const authorizeUser = require('./app/middlewares/authorization')
 const configureDB = require('./config/db')
 const categoriesCltr = require('./app/controllers/categoryController')
-const productsCltr = require('./app/controllers/productsontroller')
+const productsCltr = require('./app/controllers/productController')
 const PORT = 3421
 const app = express()
 app.use(express.json())
